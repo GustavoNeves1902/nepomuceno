@@ -1,6 +1,9 @@
 @import url(./styles/footer.css);
+@import url(./styles/perguntas.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -26,7 +29,7 @@
 
 .logo {
   position: absolute;
-  top: 13px;
+  top: 18px;
   left: 2%;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -46,13 +49,13 @@
   gap: 32px;
 }
 .texto {
-  font-size: 4rem;
+  font-size: 4.8rem;
   font-family: Montserrat, Arial;
   font-weight: 400;
 }
 
 .comentario {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: Montserrat, Arial;
   line-height: 50px;
 }
@@ -65,9 +68,9 @@
 }
 
 .logo-icon {
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
   color: white;
   text-decoration: none;
 }
@@ -86,7 +89,7 @@
 
 .div-btn-contato {
   background-color: white;
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
