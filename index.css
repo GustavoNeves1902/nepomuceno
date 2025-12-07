@@ -1,0 +1,105 @@
+@import url(./styles/footer.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  filter: brightness(0.4);
+}
+
+.container-image {
+  position: relative;
+  text-align: center;
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.logo {
+  position: absolute;
+  top: 13px;
+  left: 2%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.texto-cima {
+  font-family: Montserrat, Arial;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+  max-width: 650px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.texto {
+  font-size: 4rem;
+  font-family: Montserrat, Arial;
+  font-weight: 400;
+}
+
+.comentario {
+  font-size: 2rem;
+  font-family: Montserrat, Arial;
+  line-height: 50px;
+}
+
+.detalhe-roxo {
+  width: 18%;
+  height: 8px;
+  background-color: rgb(11, 11, 54);
+  margin-left: 150px;
+}
+
+.logo-icon {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-contato {
+  padding: 10px 12px;
+  background-color: white;
+  width: 50%;
+  border-radius: 30px;
+  color: #150a3b;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.div-btn-contato {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-contato-2 {
+  text-transform: uppercase;
+  padding: 10px 12px;
+  background-color: #150a3b;
+  width: 30%;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
