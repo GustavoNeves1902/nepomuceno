@@ -1,6 +1,7 @@
 @import url(./styles/footer.css);
 @import url(./styles/perguntas.css);
 @import url(./styles/nepomuceno.css);
+@import url(./styles/vantagens.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
@@ -11,6 +12,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .img {
@@ -53,14 +58,15 @@
 }
 .texto {
   font-size: 4.8rem;
-  font-family: Montserrat, Arial;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
 }
 
 .comentario {
   font-size: 2.5rem;
-  font-family: Montserrat, Arial;
+  font-family: Roboto, sans-serif;
   line-height: 50px;
+  font-weight: 200;
 }
 
 .detalhe-roxo {
