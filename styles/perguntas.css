@@ -67,5 +67,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .perguntas-titulo{
+    text-align: center;
+  }
 }
