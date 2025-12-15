@@ -2,6 +2,7 @@
 @import url(./styles/perguntas.css);
 @import url(./styles/nepomuceno.css);
 @import url(./styles/vantagens.css);
+@import url(./styles/testemunhos.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
@@ -14,14 +15,11 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .img {
   width: 100%;
   display: block;
   height: 100%;
+  object-fit: cover; /*nao deixa distorcer*/
   filter: brightness(0.4);
 }
 
@@ -104,35 +102,34 @@ html {
   justify-content: center;
 }
 
-.btn-contato-2 {
-  text-transform: uppercase;
-  padding: 10px 12px;
-  background-color: #150a3b;
-  width: 30%;
-  border-radius: 30px;
-  color: white;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
+@media screen and (max-width: 1150px) {
+  .texto-cima {
+    left: 40%;
+  }
+  .texto {
+    font-size: 3.5rem;
+  }
 }
 
-.perfil-card {
-  background-color: aqua;
-  width: 200px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  text-align: center;
-  padding: 20px;
-  border-radius: 12px;
-}
-.foto-perfil {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.perfil-comentario {
-  width: fit-content;
+@media screen and (max-width: 768px) {
+  .texto-cima {
+    left: 50%; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    align-items: center; /* Centraliza os itens flex */
+    width: 90%;
+  }
+  .texto {
+    font-size: 2.8rem;
+  }
+  .detalhe-roxo {
+    display: none; /* Centraliza a barra roxa */
+  }
+  .btn-contato {
+    width: 100%; /* Botão largura total no celular */
+    font-size: 0.9rem;
+  }
+  .comentario {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
 }
