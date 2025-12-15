@@ -37,10 +37,23 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .vantagens-conteudos {
+    width: 60%;
+  }
+
+  .vantagens-titulo {
+    width: 60%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .vantagens-conteudos {
     width: 60%;
+  }
+
+  .vantagens-titulo {
+    width: 60%;
+    text-align: center;
   }
 }
