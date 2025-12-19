@@ -5,8 +5,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  border-bottom: 2px solid #b5b0c5;
-  margin-bottom: 50px;
+  background-color: rgb(232, 230, 235, 1);
 }
 
 .vantagens-conteudos {
@@ -14,7 +13,6 @@
   flex-direction: column;
   gap: 22px;
   padding: 12px;
-  margin-bottom: 50px;
   width: 80%;
 }
 
@@ -28,6 +26,7 @@
 
 .vantagens-titulo {
   margin-top: 50px;
+  margin-bottom: 30px;
   font-family: Roboto, sans-serif;
   color: #150a3b;
   width: 100%;
