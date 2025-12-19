@@ -61,12 +61,16 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .vantagens-conteudos {
-    width: 60%;
+  .vantagens{
+    width: 100%;
+  }
+  .vantagens-conteudos,.vantagens-conteudo {
+    width: 95%;
+    padding: 0 10px;
   }
 
   .vantagens-titulo {
-    width: 60%;
+    width: 95%;
     text-align: center;
   }
 }

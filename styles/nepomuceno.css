@@ -22,33 +22,32 @@
 }
 
 .acompanhamento-texto-titulo {
-  color: black;
+  color: #150a3b;
 }
 
 .acompanhamento-texto-paragrafo {
-  color: black;
+  color: #150a3b;
   font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1150px) {
   .foto-em-pé {
-  width: 50%;
-}
-.acompanhamento-texto-paragrafo {
-  color: black;
-  font-size: 1rem;
-}
-
+    width: 50%;
+  }
+  .acompanhamento-texto-paragrafo {
+    color: black;
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .foto-em-pé {
-  display: none;
-}
-.acompanhamento-texto {
-  width: 90%;
-}
-.acompanhamento-texto-titulo {
-  text-align: center;
-}
+    display: none;
+  }
+  .acompanhamento-texto {
+    width: 90%;
+  }
+  .acompanhamento-texto-titulo {
+    text-align: center;
+  }
 }

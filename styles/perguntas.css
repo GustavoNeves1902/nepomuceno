@@ -39,13 +39,12 @@
 .faq-title {
   padding: 16px;
   font-family: Roboto, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: #150a3b;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .faq-content {
@@ -74,12 +73,21 @@
 .list-item {
   list-style: none;
 }
-
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
+  .perguntas-titulo {
+    text-align: center;
+    width: 60%;
+    margin-bottom: 50px;
+  }
 }
-
 @media screen and (max-width: 768px) {
   .perguntas-titulo {
     text-align: center;
+    width: 90%;
+  }
+
+  .faq-item {
+    width: 90%;
+    margin: 0px 30px;
   }
 }

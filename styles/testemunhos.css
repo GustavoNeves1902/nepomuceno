@@ -22,6 +22,11 @@
 #testimonials .section-subtitle {
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: #150a3b;
+}
+
+.section-title {
+  color: #150a3b;
 }
 
 /* --- Estilos do Carrossel --- */

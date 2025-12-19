@@ -29,6 +29,12 @@
   width: 80%;
 }
 
+.rodape-titulo {
+  color: #150a3b;
+  font-family: Montserrat, Arial;
+  font-weight: 400;
+}
+
 .nome-rodape {
   font-family: Montserrat, Arial;
   font-style: italic;
