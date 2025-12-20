@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 .perguntas {
   display: flex;
@@ -28,7 +28,7 @@
 
 .perguntas-titulo {
   color: #150a3b;
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, Arial;
   font-weight: 500;
   font-size: 30px;
   text-transform: uppercase;
@@ -38,7 +38,7 @@
 
 .faq-title {
   padding: 16px;
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, Arial;
   font-size: 1.7rem;
   color: #150a3b;
   display: flex;
@@ -49,7 +49,7 @@
 
 .faq-content {
   padding: 18px;
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, Arial;
   display: none;
   color: #150a3b;
   font-size: 1.2rem;
@@ -89,5 +89,29 @@
   .faq-item {
     width: 90%;
     margin: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .perguntas-titulo {
+    text-align: center;
+    width: 80%;
+    font-size: 24px;
+  }
+
+  .faq-item {
+    width: 90%;
+    margin: 0px 30px;
+  }
+
+  .faq-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .faq-content p {
+    font-size: 1.2rem;
+    font-family: Montserrat, Arial;
+    font-weight: 400;
   }
 }

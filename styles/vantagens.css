@@ -61,10 +61,11 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .vantagens{
+  .vantagens {
     width: 100%;
   }
-  .vantagens-conteudos,.vantagens-conteudo {
+  .vantagens-conteudos,
+  .vantagens-conteudo {
     width: 95%;
     padding: 0 10px;
   }
@@ -72,5 +73,32 @@ p {
   .vantagens-titulo {
     width: 95%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .vantagens {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .vantagens-conteudos,
+  .vantagens-conteudo {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  .vantagens-titulo {
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .vantagens-conteudo p {
+    font-size: 18px;
+  }
+  .check {
+    width: 20px;
+    height: 20px;
   }
 }

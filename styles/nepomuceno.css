@@ -23,6 +23,9 @@
 
 .acompanhamento-texto-titulo {
   color: #150a3b;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
 }
 
 .acompanhamento-texto-paragrafo {
@@ -49,5 +52,25 @@
   }
   .acompanhamento-texto-titulo {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .foto-em-pé {
+    display: none;
+  }
+  .acompanhamento-texto {
+    width: 100%;
+  }
+  .acompanhamento-texto-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .acompanhamento-texto-paragrafo {
+    font-size: 1rem;
+    text-align: justify;
+    color: #150a3b;
+    font-weight: 300;
   }
 }

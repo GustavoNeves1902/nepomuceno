@@ -133,3 +133,33 @@
     line-height: 1.3;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .texto-cima {
+    left: 50%; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+    align-items: center; /* Centraliza os itens flex */
+    width: 80%;
+  }
+  .texto {
+    font-size: 2.8rem;
+  }
+  .detalhe-roxo {
+    display: none; /* Centraliza a barra roxa */
+  }
+  .btn-contato {
+    width: 80%; /* Botão largura total no celular */
+    font-size: 0.9rem;
+  }
+  .comentario {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  .logo-icon {
+    font-size: 1.3rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+}
