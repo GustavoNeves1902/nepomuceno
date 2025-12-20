@@ -95,8 +95,9 @@
 @media screen and (max-width: 500px) {
   .perguntas-titulo {
     text-align: center;
-    width: 80%;
-    font-size: 24px;
+    width: 75%;
+    font-weight: 600;
+    font-size: 1.2rem;
   }
 
   .faq-item {
@@ -105,12 +106,12 @@
   }
 
   .faq-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
   .faq-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: Montserrat, Arial;
     font-weight: 400;
   }
