@@ -20,7 +20,7 @@
 }
 
 #testimonials .section-subtitle {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   color: #150a3b;
 }
@@ -112,10 +112,14 @@
   #testimonials {
     flex-direction: column;
     text-align: center;
+    justify-content: flex-start; /* 🔴 ISSO resolve o espaço grande */
+    min-height: auto; /* 🔴 remove altura forçada */
+    gap: 24px; /* 🔴 diminui espaço entre os blocos */
+    padding: 100px 0px;
   }
 
   #testimonials .section-subtitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   /* Correção do ID que estava diferente no seu CSS original */
