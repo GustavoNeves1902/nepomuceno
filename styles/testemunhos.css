@@ -45,10 +45,25 @@
   padding: 24px;
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  min-height: 180px; /* Garante que todos tenham altura parecida */
+  min-height: 300px; /* Garante que todos tenham altura parecida */
 
   /* Animação suave */
   animation: fadeEffect 0.5s;
+}
+
+.feedback-content {
+  max-height: 250px; /* Altura máxima para o texto não esticar o site todo */
+  overflow-y: auto;  /* Ativa o scroll se o texto passar da altura */
+  padding-right: 10px;
+}
+
+/* Deixa a barra de rolagem mais bonita e fininha */
+.feedback-content::-webkit-scrollbar {
+  width: 6px;
+}
+.feedback-content::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
 }
 
 /* Classe que o JS vai adicionar para mostrar o slide */
@@ -140,7 +155,13 @@
   .feedback {
     flex-direction: column;
     text-align: center;
+    text-align: center;
     padding: 20px;
+  }
+
+  .feedback-content{
+    margin-top: 15px;
+    width: 100%;
   }
 
   .feedback-avatar {
