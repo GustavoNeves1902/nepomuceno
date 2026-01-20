@@ -70,9 +70,11 @@
   padding: 18px;
 }
 
-.faq-item.open .icon {
-  transform: rotate(180deg);
+.faq-title i{
   transition: transform 0.3s ease;
+}
+.faq-item.open .faq-title i{
+  transform: rotate(-90deg);
 }
 
 .icon {
