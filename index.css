@@ -20,7 +20,7 @@
   display: block;
   height: 100%;
   object-fit: cover; /*nao deixa distorcer*/
-  filter: brightness(0.4);
+  filter: brightness(0.5);
 }
 
 .container-image {
