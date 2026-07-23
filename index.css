@@ -34,11 +34,12 @@
 }
 
 .logo {
-  position: absolute;
+  position: fixed;
   top: 18px;
   left: 2%;
   letter-spacing: 2px;
   text-transform: uppercase;
+  z-index: 1000;
 }
 .texto-cima {
   font-family: Montserrat, Arial;
@@ -80,6 +81,11 @@
   font-weight: 500;
   color: white;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo-icon.scrolled {
+  color: black;
 }
 
 .btn-contato {

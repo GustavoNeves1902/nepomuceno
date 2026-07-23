@@ -1,3 +1,17 @@
+const logo = document.querySelector(".logo-icon");
+const hero = document.querySelector(".container-image");
+
+function updateLogoColor() {
+  if (window.scrollY > hero.offsetHeight - 80) {
+    logo.classList.add("scrolled");
+  } else {
+    logo.classList.remove("scrolled");
+  }
+}
+
+window.addEventListener("scroll", updateLogoColor);
+updateLogoColor();
+
 document.querySelectorAll(".faq-item").forEach((item) => {
   item.addEventListener("click", () => {
     // fecha todos os itens, menos o clicado
@@ -55,7 +69,7 @@ ScrollReveal().reveal("#teacher", {
   distance: "20%",
 });
 
-ScrollReveal().reveal("#texto", {
+ScrollReveal().reveal(".reveal-texto", {
   origin: "left",
   duration: 2000,
   distance: "20%",
